@@ -1,0 +1,70 @@
+.about{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 15px;
+    border: 15px solid #ffffff;
+}
+
+.about-me{
+    flex-direction: line;
+    display: flex;
+    gap: 30px;
+}
+
+.about-text{
+    text-align: left; /* Align text to the left */
+    justify-content: flex-start; /* Align items to the start */
+}
+
+.profile-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.divider {
+    width: 1px; /* Set width to 1px for vertical divider */
+    height: 100%; /* Set height to 100% to fill the container */
+    background-color: #000000;
+    margin: 0 20px; /* Adjust margin for spacing */
+}
+
+.linkedIn-logo{
+    width: 24px; /* Changed to 24px */
+    height: 24px; /* Changed to 24px */
+}
+
+.tab{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; /* Add this line to stack items vertically */
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 15px;
+    border: 2px solid #000; /* Add this line to add a border */
+}
+
+.education > h2 {
+    text-align: left;
+    margin-left: 30px; /* Add this line to add left margin */
+}
+
+.education-item {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add this line to add a shadow */
+}
+
+.website {
+    text-align: center;
+    display: flex; /* Add this line to use flexbox */
+    flex-direction: row; /* Add this line to align items side by side */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+}
